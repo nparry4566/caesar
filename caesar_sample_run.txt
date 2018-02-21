@@ -1,0 +1,69 @@
+Python 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:14:34) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+========== RESTART: C:\Users\nparry4566\Documents\yrddyt\caesar.py ==========
+Traceback (most recent call last):
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 23, in <module>
+    encrypted_message = encrypt(message, 30)
+NameError: name 'message' is not defined
+>>> 
+========== RESTART: C:\Users\nparry4566\Documents\yrddyt\caesar.py ==========
+Traceback (most recent call last):
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 23, in <module>
+    encrypted_message = encrypt(message, 30)
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 20, in encrypt
+    return encrypt(message,-1*shift_amount)
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 20, in encrypt
+    return encrypt(message,-1*shift_amount)
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 20, in encrypt
+    return encrypt(message,-1*shift_amount)
+  [Previous line repeated 990 more times]
+RecursionError: maximum recursion depth exceeded
+>>> 
+========== RESTART: C:\Users\nparry4566\Documents\yrddyt\caesar.py ==========
+Traceback (most recent call last):
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 23, in <module>
+    encrypted_message = encrypt(message, 30)
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 20, in encrypt
+    return encrypt(message,-1*shift_amount)
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 20, in encrypt
+    return encrypt(message,-1*shift_amount)
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 20, in encrypt
+    return encrypt(message,-1*shift_amount)
+  [Previous line repeated 990 more times]
+RecursionError: maximum recursion depth exceeded
+>>> 
+========== RESTART: C:\Users\nparry4566\Documents\yrddyt\caesar.py ==========
+Traceback (most recent call last):
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 23, in <module>
+    encrypted_message = encrypt(message, 30)
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 20, in encrypt
+    return encrypt(message,shift_amount)
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 20, in encrypt
+    return encrypt(message,shift_amount)
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 20, in encrypt
+    return encrypt(message,shift_amount)
+  [Previous line repeated 990 more times]
+RecursionError: maximum recursion depth exceeded
+>>> 
+========== RESTART: C:\Users\nparry4566\Documents\yrddyt\caesar.py ==========
+Traceback (most recent call last):
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 21, in <module>
+    encrypted_message = decrypt(encrypted_message, 30)
+NameError: name 'decrypt' is not defined
+>>> 
+========== RESTART: C:\Users\nparry4566\Documents\yrddyt\caesar.py ==========
+Traceback (most recent call last):
+  File "C:\Users\nparry4566\Documents\yrddyt\caesar.py", line 23, in <module>
+    print(unencrypted_message)
+NameError: name 'unencrypted_message' is not defined
+>>> 
+========== RESTART: C:\Users\nparry4566\Documents\yrddyt\caesar.py ==========
+big boy pants
+!(&>!.8>/ -32
+>>> 
+========== RESTART: C:\Users\nparry4566\Documents\yrddyt\caesar.py ==========
+big boy pants
+big boy pants
+!(&>!.8>/ -32
+>>> 
